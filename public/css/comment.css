@@ -1,0 +1,76 @@
+/* Light Mode */
+.comments-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.comment-form textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.comment-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.comment {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.comment-header {
+    display: flex;
+    align-items: center;
+}
+
+#imageProfile {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.comment-content {
+    margin-top: 10px;
+}
+
+/* Dark Mode */
+.dark-mode .comments-section {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode .comment {
+    border: 1px solid white;
+}
+
+.dark-mode #imageProfile {
+    border: 2px solid white;
+}

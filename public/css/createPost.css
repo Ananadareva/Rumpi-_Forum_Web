@@ -1,0 +1,82 @@
+/* Light mode styles */
+.create-post-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.create-post-container .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  1fr;
+    grid-gap: 20px;
+}
+
+.create-post-container .grid-item {
+    width: 100%;
+}
+
+.create-post-container textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.file-inputs {
+    margin-bottom: 10px;
+}
+
+.preview-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.preview-item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.preview-container {
+    text-align: center;
+}
+
+.preview-item img,
+.preview-item video {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5px;
+}
+
+/* Dark mode styles */
+.dark-mode .create-post-container {
+    background-color: black;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+.dark-mode .create-post-container textarea {
+    border: 1px solid #999;
+    background-color: black;
+    color: #fff;
+}
+
+.dark-mode .preview-item img,
+.dark-mode .preview-item video {
+    border: 1px solid #666;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.removeFileInput {
+    margin-left: 10px;
+}
+
+
+

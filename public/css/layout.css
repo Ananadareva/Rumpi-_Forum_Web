@@ -1,0 +1,175 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+
+.dark-mode h1 {
+
+    color: white;
+}
+
+#modal1 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    overflow: auto;
+    background-color: #333;
+    border: 1px solid white;
+    right: 5px;
+    bottom: 5px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #888;
+    width: 80%;
+    height: 90%;
+}
+
+.close-button {
+    color: #aaaaaa;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.modal-button {
+    background-color: #333 !important;
+    color: silver;
+    float: right;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dark-mode .modal {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode .modal-content {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+.dark-mode .modal-button {
+    background-color: black !important;
+    color: white;
+}
+
+main {
+    flex: 1;
+    background-color: silver;
+}
+
+.dark-mode main {
+    background-color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.dark-mode header {
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.dark-mode footer {
+    background-color: black;
+}
+
+
+/* pagination.css */
+
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pagination li {
+    margin-right: 10px;
+}
+
+.pagination a,
+.pagination span {
+    padding: 8px 12px;
+    display: inline-block;
+    text-decoration: none;
+    color: #3490dc;
+    background-color: #fff;
+    border: 1px solid #d2d6dc;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.pagination .active a {
+    background-color: #3490dc;
+    color: #fff;
+}
+
+.pagination a:hover {
+    background-color: #f0f4f8;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+
